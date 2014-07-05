@@ -1,4 +1,4 @@
-<h1><%= todo_list.title %></h1> - Editing todo list item.
+<h1><%= @todo_list.title %></h1> - Editing todo list item.
 <%= form_for [@todo_list, @todo_item] do |form| %>
-  <%= render partial :form %>   
+  <%= render partial: form %>   
 <% end %>
